@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc639e4-3d49-43d9-89b6-c5a89d426e21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ep1/uri1835/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ep1/uri2870/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ep1/uri1835/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ep1/uri1835/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +39,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -52,13 +56,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uri.desafio1228.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ep1.uri2870.Main" />
       <module name="Desafios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uri.desafio1228.*" />
+          <option name="PATTERN" value="ep1.uri2870.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,18 +137,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +169,9 @@
       <workItem from="1586910309538" duration="5051000" />
       <workItem from="1587408978213" duration="658000" />
       <workItem from="1587476763345" duration="24398000" />
-      <workItem from="1587588876242" duration="1711000" />
+      <workItem from="1587588876242" duration="3770000" />
+      <workItem from="1587596516920" duration="144000" />
+      <workItem from="1587596676518" duration="3071000" />
     </task>
     <task id="LOCAL-00001" summary="Desafio 1100 completado - dijkstra">
       <created>1587498887680</created>
@@ -174,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587498887680</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Desafio 1835 completado - utilizando o método dos componentes conexos">
+      <created>1587590656905</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587590656905</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +208,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Desafio 1100 completado - dijkstra" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio 1100 completado - dijkstra" />
+    <MESSAGE value="Desafio 1835 completado - utilizando o método dos componentes conexos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio 1835 completado - utilizando o método dos componentes conexos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -236,9 +250,9 @@
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ep1/uri1835/Main.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="41" />
+          <url>file://$PROJECT_DIR$/src/ep1/uri2870/Main.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

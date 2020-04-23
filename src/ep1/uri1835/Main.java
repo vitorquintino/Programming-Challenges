@@ -29,21 +29,24 @@ public class Main {
             int quantidadeVertices = sc.nextInt();
             int quantidadeArestas = sc.nextInt();
 
-
-            if(quantidadeVertices == 0){
-                System.out.print("Caso #" + i + ":");
-                System.out.print(" a promessa foi cumprida\n");
-            }
             if(quantidadeArestas == 0){
-                int newQtd = quantidadeVertices - 1;
+                int newQtd;
 
-                System.out.print("Caso #" + i + ": ainda falta(m) " + newQtd + " estrada(s)\n");
+                if(quantidadeVertices > 1){
+                    newQtd = quantidadeVertices - 1;
+                    System.out.print("Caso #" + i + ": ainda falta(m) " + newQtd + " estrada(s)\n");
+                }
+                else{
+                    System.out.print("Caso #" + i + ":");
+                    System.out.print(" a promessa foi cumprida\n");
+                }
 
-                continue;
             }
 
             Vertice[][] grafo = new Vertice[quantidadeVertices + 1][quantidadeVertices + 1];
             initializeGraph(grafo);
+
+
 
             for(int j = 0; j < quantidadeArestas; j++){
                 int firstAresta = sc.nextInt();
@@ -51,6 +54,8 @@ public class Main {
 
                 addConnection(grafo, firstAresta, secondAresta);
             }
+
+            if(quantidadeArestas == 0 || quantidadeVertices == 0) continue;
 
             while(true){
                 int nextIndex = findNonVisitedVertice(grafo);
@@ -145,8 +150,10 @@ public class Main {
     }
 
     private static void addConnection(Vertice[][] grafo, int firstAresta, int secondAresta) {
-        grafo[firstAresta][secondAresta].isConnected = 1;
-        grafo[secondAresta][firstAresta].isConnected = 1;
+        if(grafo.length > 1) {
+            grafo[firstAresta][secondAresta].isConnected = 1;
+            grafo[secondAresta][firstAresta].isConnected = 1;
+        }
     }
 
 
