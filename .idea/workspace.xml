@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc639e4-3d49-43d9-89b6-c5a89d426e21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ep1/uri2870/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ep1/uri1835/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ep1/uri1835/Main.java" afterDir="false" />
     </list>
@@ -56,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ep1.uri2870.Main" />
       <module name="Desafios" />
@@ -144,8 +143,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
@@ -172,6 +171,8 @@
       <workItem from="1587588876242" duration="3770000" />
       <workItem from="1587596516920" duration="144000" />
       <workItem from="1587596676518" duration="3071000" />
+      <workItem from="1587606979194" duration="46000" />
+      <workItem from="1587674113935" duration="1210000" />
     </task>
     <task id="LOCAL-00001" summary="Desafio 1100 completado - dijkstra">
       <created>1587498887680</created>
@@ -187,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587590656905</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Desafio 2870 quase completado - utilizando o método dos componentes conexos">
+      <created>1587607013162</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587607013162</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +217,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Desafio 1100 completado - dijkstra" />
     <MESSAGE value="Desafio 1835 completado - utilizando o método dos componentes conexos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio 1835 completado - utilizando o método dos componentes conexos" />
+    <MESSAGE value="Desafio 2870 quase completado - utilizando o método dos componentes conexos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio 2870 quase completado - utilizando o método dos componentes conexos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -253,6 +262,26 @@
           <url>file://$PROJECT_DIR$/src/ep1/uri2870/Main.java</url>
           <line>58</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ep1/uri1835/Main.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ep1/uri1835/Main.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ep1/uri1835/Main.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ep1/uri1835/Main.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

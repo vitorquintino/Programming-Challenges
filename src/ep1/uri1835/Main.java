@@ -1,5 +1,10 @@
 package ep1.uri1835;
 
+import java.util.Scanner;
+
+public class Main {
+
+
 /*
     Integrantes do grupo:
 
@@ -8,14 +13,10 @@ package ep1.uri1835;
     Vitor Santos Quintino - 10258880
 */
 
-
-import java.util.ArrayList;
-import java.util.Scanner;
-
-public class Main {
-
     private static int connectedGraphs;
-    private static ArrayList<ArrayList<Integer>> connectedGraphsPath = new ArrayList<>();
+//    private static ArrayList<ArrayList<Integer>> connectedGraphsPath = new ArrayList<>();
+    private static Integer[][] connectedGraphsArray = new Integer[100][100];
+    private static int currentVertex = 0;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -24,7 +25,7 @@ public class Main {
 
         for(int i = 1; i <= caseTests; i++){
             connectedGraphs = 0;
-            connectedGraphsPath.clear();
+//            connectedGraphsPath.clear();
 
             int quantidadeVertices = sc.nextInt();
             int quantidadeArestas = sc.nextInt();
@@ -62,11 +63,12 @@ public class Main {
 
                 if(nextIndex < 0) break;
 
-                connectedGraphsPath.add(new ArrayList<>());
+//                connectedGraphsPath.add(new ArrayList<>());
 
                 findConnectedGraphs(grafo, nextIndex);
 
                 connectedGraphs++;
+                currentVertex = 0;
             }
 
             if(connectedGraphs == 0) connectedGraphs = grafo.length;
@@ -100,9 +102,12 @@ public class Main {
 
             if(!hasConnection){
                 connectedGraphs++;
+                currentVertex = 0;
 
-                connectedGraphsPath.add(new ArrayList<>());
-                connectedGraphsPath.get(connectedGraphs - 1).add(i + 96);
+//                connectedGraphsPath.add(new ArrayList<>());
+//                connectedGraphsPath.get(connectedGraphs - 1).add(i + 96);
+                connectedGraphsArray[connectedGraphs][currentVertex] = i + 96;
+                currentVertex++;
             }
         }
     }
@@ -120,7 +125,12 @@ public class Main {
     }
 
     private static void findConnectedGraphs(Vertice[][] grafo, int index) {
-        if(!indexExists(index)) connectedGraphsPath.get(connectedGraphs).add(index + 96);
+        if(!indexExists(index)){
+//            connectedGraphsPath.get(connectedGraphs).add(index + 96);
+            connectedGraphsArray[connectedGraphs][currentVertex] = index + 96;
+            currentVertex++;
+
+        }
 
         for(int i = 1; i < grafo.length; i++){
             if(grafo[index][i].isConnected == 1 && grafo[index][i].isVisited != 1){
@@ -133,8 +143,14 @@ public class Main {
     }
 
     private static boolean indexExists(int index) {
-        for(int i = 0; i < connectedGraphsPath.get(connectedGraphs).size(); i++){
-            if(connectedGraphsPath.get(connectedGraphs).get(i) == (index + 96)){
+//        for(int i = 0; i < connectedGraphsPath.get(connectedGraphs).size(); i++){
+//            if(connectedGraphsPath.get(connectedGraphs).get(i) == (index + 96)){
+//                return true;
+//            }
+//        }
+//        return false;
+        for(int i = 0; i < connectedGraphsArray[connectedGraphs].length; i++){
+            if(connectedGraphsArray[connectedGraphs][i] != null && connectedGraphsArray[connectedGraphs][i] == (index + 96)){
                 return true;
             }
         }
