@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc639e4-3d49-43d9-89b6-c5a89d426e21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/uri/desafio2690/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uri/desafio1523/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +58,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uri.desafio1523.Main" />
+      <module name="Desafios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uri.desafio1523.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uri.desafio1260.Main" />
       <module name="Desafios" />
@@ -78,19 +91,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="uri.desafio2690.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ep1.uri1835.Main" />
-      <module name="Desafios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ep1.uri1835.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,19 +125,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Teste" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Teste" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +167,9 @@
       <workItem from="1588107729472" duration="6611000" />
       <workItem from="1588291303389" duration="1042000" />
       <workItem from="1588716214421" duration="5384000" />
-      <workItem from="1589320148475" duration="1649000" />
+      <workItem from="1589320148475" duration="1833000" />
+      <workItem from="1589921153174" duration="2937000" />
+      <workItem from="1589924354671" duration="2739000" />
     </task>
     <task id="LOCAL-00001" summary="Desafio 1100 completado - dijkstra">
       <created>1587498887680</created>
@@ -211,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588720764653</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Desafio 2690 finalizado">
+      <created>1589321815238</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589321815238</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +246,8 @@
     <MESSAGE value="Desafio 1835 finalizado - mudança de estratégia de ArrayList para array comum de Integer" />
     <MESSAGE value="Desafio 1260 finalizado" />
     <MESSAGE value="Desafio 1519 finalizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio 1519 finalizado" />
+    <MESSAGE value="Desafio 2690 finalizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio 2690 finalizado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -336,6 +346,16 @@
           <url>file://$PROJECT_DIR$/src/uri/desafio2690/Main.java</url>
           <line>38</line>
           <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uri/desafio1523/Main.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uri/desafio1523/Main.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="102" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
