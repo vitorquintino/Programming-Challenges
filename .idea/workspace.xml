@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc639e4-3d49-43d9-89b6-c5a89d426e21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/uri/desafio1523/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ep2/uri1905/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uri.desafio1523.Main" />
       <module name="Desafios" />
@@ -72,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uri.desafio1260.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uri.desafio2690.Main" />
       <module name="Desafios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uri.desafio1260.*" />
+          <option name="PATTERN" value="uri.desafio2690.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uri.desafio2690.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ep2.uri1905.Main" />
       <module name="Desafios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uri.desafio2690.*" />
+          <option name="PATTERN" value="ep2.uri1905.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,19 +125,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Teste" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Teste" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +169,9 @@
       <workItem from="1588716214421" duration="5384000" />
       <workItem from="1589320148475" duration="1833000" />
       <workItem from="1589921153174" duration="2937000" />
-      <workItem from="1589924354671" duration="2739000" />
+      <workItem from="1589924354671" duration="2982000" />
+      <workItem from="1589985035464" duration="170000" />
+      <workItem from="1590098405411" duration="3586000" />
     </task>
     <task id="LOCAL-00001" summary="Desafio 1100 completado - dijkstra">
       <created>1587498887680</created>
@@ -220,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589321815238</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Desafio 1523 finalizado">
+      <created>1589927276056</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589927276056</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +256,8 @@
     <MESSAGE value="Desafio 1260 finalizado" />
     <MESSAGE value="Desafio 1519 finalizado" />
     <MESSAGE value="Desafio 2690 finalizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio 2690 finalizado" />
+    <MESSAGE value="Desafio 1523 finalizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio 1523 finalizado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -354,14 +364,30 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/uri/desafio1523/Main.java</url>
-          <line>138</line>
-          <option name="timeStamp" value="102" />
+          <line>45</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ep2/uri1905/Main.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ep2/uri1905/Main.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ep2/uri1905/Main.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="116" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="orderedPhrase.get(0).charAt(0)" language="JAVA" />
+        <watch expression="board[2][1].isConnected" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
