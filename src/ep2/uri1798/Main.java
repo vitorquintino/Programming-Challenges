@@ -1,6 +1,5 @@
 package ep2.uri1798;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /*
@@ -13,60 +12,40 @@ import java.util.Scanner;
 
 public class Main {
 
-    static int[][] maxValues = new int[5000][5000];
-
     public static void main(String[] args) {
-        startMaxValues();
-
         Scanner sc = new Scanner(System.in);
 
         int tests = sc.nextInt();
 
         int fullSize = sc.nextInt();
 
-        ArrayList<Order> orders = new ArrayList<>();
+        int[] weights = new int[tests];
+        int[] values = new int[tests];
 
         for(int i = 0; i < tests; i++) {
-            Order order = new Order();
-
-            order.size = sc.nextInt();
-            order.price = sc.nextInt();
-
-            orders.add(order);
+            weights[i] = sc.nextInt();
+            values[i] = sc.nextInt();
         }
 
-        System.out.println(calculateMaxValue(orders, 0, fullSize));
+        System.out.println(findBiggestCombination(weights, values, tests, fullSize));
     }
 
-    private static void startMaxValues() {
-        for(int i = 0; i < maxValues.length; i++){
-            for(int j = 0; j < maxValues[i].length; j++){
-                maxValues[i][j] = -1;
+    private static int findBiggestCombination(int[] wt, int[] val, int n, int W) {
+        int dp[] = new int[W + 1];
+
+        // Fill dp[] using above recursive formula
+        for(int i = 0; i <= W; i++){
+            for(int j = 0; j < n; j++){
+                if(wt[j] <= i){
+                    dp[i] = max(dp[i], dp[i - wt[j]] +
+                            val[j]);
+                }
             }
         }
+        return dp[W];
     }
 
-    public static int calculateMaxValue(ArrayList<Order> orders, int currentIndex, int currentSize){
-        if(currentIndex == orders.size()) return 0;
-        if(currentSize == 0) return 0;
-        if(currentSize < 0) return -10000;
-
-        int currentMaxValue = -1;
-
-        if(maxValues[currentIndex][currentSize] == -1){
-            currentMaxValue = Math.max(calculateMaxValue(orders, currentIndex + 1, currentSize), orders.get(currentIndex).price + calculateMaxValue(orders, currentIndex, currentSize - orders.get(currentIndex).size));
-            maxValues[currentIndex][currentSize] = currentMaxValue;
-        }
-
-        return currentMaxValue;
-    }
-
-    public static class Order {
-        public Order() {
-
-        }
-
-        int size;
-        int price;
+    private static int max(int i, int j) {
+        return Math.max(i, j);
     }
 }
