@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc639e4-3d49-43d9-89b6-c5a89d426e21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ep2/uri1288/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ep2/uri1798/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ep2/uri1798/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ep2/uri1288/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ep2/uri1288/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Tentativa3">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uri.desafio1523.Main" />
       <module name="Desafios" />
@@ -134,9 +133,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Tentativa3" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Tentativa3" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (1)" />
       </list>
@@ -173,7 +172,7 @@
       <workItem from="1589924354671" duration="2982000" />
       <workItem from="1589985035464" duration="170000" />
       <workItem from="1590098405411" duration="15009000" />
-      <workItem from="1590183593003" duration="2746000" />
+      <workItem from="1590183593003" duration="4660000" />
     </task>
     <task id="LOCAL-00001" summary="Desafio 1100 completado - dijkstra">
       <created>1587498887680</created>
@@ -245,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590113299290</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Desafio 1798 finalizado - utilizando o algoritmo da mochila com repetição">
+      <created>1590186361800</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590186361800</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +281,8 @@
     <MESSAGE value="Desafio 1523 finalizado" />
     <MESSAGE value="Desafio 1905 finalizado, porém com runtime no uri (mesmo passando em todos os testes do udebug)" />
     <MESSAGE value="Desafio 1798 finalizado parcialmente, 5% dos testes testes ainda quebram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio 1798 finalizado parcialmente, 5% dos testes testes ainda quebram" />
+    <MESSAGE value="Desafio 1798 finalizado - utilizando o algoritmo da mochila com repetição" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio 1798 finalizado - utilizando o algoritmo da mochila com repetição" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -399,31 +406,6 @@
           <url>file://$PROJECT_DIR$/src/ep2/uri1905/Main.java</url>
           <line>46</line>
           <option name="timeStamp" value="116" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ep2/uri1798/Main.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="120" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ep2/uri1798/Main.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="124" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ep2/uri1798/Main.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="125" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ep2/uri1288/Main.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="126" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ep2/uri1288/Main.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="127" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

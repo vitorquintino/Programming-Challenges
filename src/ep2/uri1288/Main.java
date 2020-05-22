@@ -13,6 +13,7 @@ public class Main {
 
         for(int i = 0; i < tests; i++){
             int quantity = sc.nextInt();
+
             values = new int[quantity];
             weights = new int[quantity];
 
@@ -24,7 +25,7 @@ public class Main {
             int maxWeight = sc.nextInt();
             int resistance = sc.nextInt();
 
-            int biggestCombination = findBiggestCombination(weights, values, values.length, maxWeight + 1);
+            int biggestCombination = findBiggestCombination(maxWeight, weights, values, values.length);
 
             if(biggestCombination >= resistance){
                 System.out.println("Missao completada com sucesso");
@@ -35,19 +36,33 @@ public class Main {
         }
     }
 
-    private static int findBiggestCombination(int[] wt, int[] val, int n, int W) {
-        int dp[] = new int[W + 1];
+    private static int findBiggestCombination(int W, int[] wt, int[] val, int n) {
+        int[][] mat = new int[n + 1][W + 1];
+        for (int r = 0; r < W + 1; r++) {
+            mat[0][r] = 0;
+        }
+        for (int c = 0; c < n + 1; c++) {
+            mat[c][0] = 0;
+        }
 
-        // Fill dp[] using above recursive formula
-        for(int i = 0; i <= W; i++){
-            for(int j = 0; j < n; j++){
-                if(wt[j] <= i){
-                    dp[i] = max(dp[i], dp[i - wt[j]] +
-                            val[j]);
+        for (int item = 1; item <= n; item++) {
+            for (int capacity = 1; capacity <= W; capacity++) {
+                int maxValWithoutCurr = mat[item - 1][capacity];
+                int maxValWithCurr = 0;
+
+                int weightOfCurr = wt[item - 1];
+                if (capacity >= weightOfCurr) {
+                    maxValWithCurr = val[item - 1];
+
+                    int remainingCapacity = capacity - weightOfCurr;
+                    maxValWithCurr += mat[item - 1][remainingCapacity];
                 }
+
+                mat[item][capacity] = Math.max(maxValWithoutCurr, maxValWithCurr);
             }
         }
-        return dp[W];
+
+        return mat[n][W];
     }
 
     private static int max(int i, int j) {
