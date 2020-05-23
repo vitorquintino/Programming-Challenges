@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc639e4-3d49-43d9-89b6-c5a89d426e21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ep2/uri2095/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ep2/uri2095/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ep2/uri2243/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,13 +58,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ep2.uri1798.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ep2.uri2243.Main" />
       <module name="Desafios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ep2.uri1798.*" />
+          <option name="PATTERN" value="ep2.uri2243.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ep2.uri1905.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ep2.uri1798.Main" />
       <module name="Desafios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ep2.uri1905.*" />
+          <option name="PATTERN" value="ep2.uri1798.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,19 +125,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Tentativa3" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Tentativa3" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +173,7 @@
       <workItem from="1589985035464" duration="170000" />
       <workItem from="1590098405411" duration="15009000" />
       <workItem from="1590183593003" duration="5080000" />
-      <workItem from="1590260289291" duration="4211000" />
+      <workItem from="1590260289291" duration="5858000" />
     </task>
     <task id="LOCAL-00001" summary="Desafio 1100 completado - dijkstra">
       <created>1587498887680</created>
@@ -265,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590264407182</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Desafio 2095 finalizado - única mudança da primeira versão foi ordenar o vetor dos primeiros guerreiros">
+      <created>1590264747809</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1590264747809</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +306,8 @@
     <MESSAGE value="Desafio 1798 finalizado - utilizando o algoritmo da mochila com repetição" />
     <MESSAGE value="Desafio 1288 finalizado - utilizando o algoritmo da mochila sem repetição" />
     <MESSAGE value="Primeira versão do desafio 2095" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeira versão do desafio 2095" />
+    <MESSAGE value="Desafio 2095 finalizado - única mudança da primeira versão foi ordenar o vetor dos primeiros guerreiros" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio 2095 finalizado - única mudança da primeira versão foi ordenar o vetor dos primeiros guerreiros" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
