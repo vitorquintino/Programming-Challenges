@@ -21,6 +21,7 @@ public class Main {
             warriorsSecond.add(sc.nextInt());
         }
 
+        warriorsFirst.sort(Collections.reverseOrder());
         warriorsSecond.sort(Collections.reverseOrder());
 
         int battlesWon = 0;
@@ -32,7 +33,6 @@ public class Main {
         }
 
         System.out.println(battlesWon);
-
     }
 
     private static int findNextOpponent(ArrayList<Integer> warriorsSecond, int power) {

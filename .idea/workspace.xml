@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc639e4-3d49-43d9-89b6-c5a89d426e21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ep2/uri2095/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ep2/uri2095/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ep2/uri2095/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +172,7 @@
       <workItem from="1589985035464" duration="170000" />
       <workItem from="1590098405411" duration="15009000" />
       <workItem from="1590183593003" duration="5080000" />
-      <workItem from="1590260289291" duration="3918000" />
+      <workItem from="1590260289291" duration="4211000" />
     </task>
     <task id="LOCAL-00001" summary="Desafio 1100 completado - dijkstra">
       <created>1587498887680</created>
@@ -259,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590188484316</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Primeira versão do desafio 2095">
+      <created>1590264407182</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1590264407182</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +297,8 @@
     <MESSAGE value="Desafio 1798 finalizado parcialmente, 5% dos testes testes ainda quebram" />
     <MESSAGE value="Desafio 1798 finalizado - utilizando o algoritmo da mochila com repetição" />
     <MESSAGE value="Desafio 1288 finalizado - utilizando o algoritmo da mochila sem repetição" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio 1288 finalizado - utilizando o algoritmo da mochila sem repetição" />
+    <MESSAGE value="Primeira versão do desafio 2095" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeira versão do desafio 2095" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -418,7 +425,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ep2/uri2095/Main.java</url>
-          <line>28</line>
+          <line>29</line>
           <option name="timeStamp" value="119" />
         </line-breakpoint>
       </breakpoints>
