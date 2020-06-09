@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc639e4-3d49-43d9-89b6-c5a89d426e21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/uri/desafio1259/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uri/desafio1799/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +15,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="241" />
+    <option name="myElementSize" value="271" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,6 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Git/demo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ep2.uri2243.Main" />
       <module name="Desafios" />
@@ -72,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ep2.uri1798.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uri.desafio1259.Main" />
       <module name="Desafios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ep2.uri1798.*" />
+          <option name="PATTERN" value="uri.desafio1259.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uri.desafio1259.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uri.desafio1799.Main" />
       <module name="Desafios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uri.desafio1259.*" />
+          <option name="PATTERN" value="uri.desafio1799.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,19 +126,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +176,11 @@
       <workItem from="1590183593003" duration="5080000" />
       <workItem from="1590260289291" duration="11308000" />
       <workItem from="1590281482145" duration="1050000" />
-      <workItem from="1590510238833" duration="276000" />
+      <workItem from="1590510238833" duration="1037000" />
+      <workItem from="1591057801484" duration="79000" />
+      <workItem from="1591058876220" duration="38000" />
+      <workItem from="1591198161004" duration="4843000" />
+      <workItem from="1591306644472" duration="3081000" />
     </task>
     <task id="LOCAL-00001" summary="Desafio 1100 completado - dijkstra">
       <created>1587498887680</created>
@@ -289,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590281825034</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Desafio 1259 finalizado">
+      <created>1590510671713</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1590510671713</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +337,8 @@
     <MESSAGE value="Desafio 2095 finalizado - única mudança da primeira versão foi ordenar o vetor dos primeiros guerreiros" />
     <MESSAGE value="Desafio 2243 finalizado" />
     <MESSAGE value="Desafio 1905 finalizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio 1905 finalizado" />
+    <MESSAGE value="Desafio 1259 finalizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio 1259 finalizado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -450,15 +463,25 @@
           <line>29</line>
           <option name="timeStamp" value="119" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uri/desafio1799/Main.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="warriorsFirst.get(i)" language="JAVA" />
+        <watch expression="point.x == points - 2" language="JAVA" />
+        <watch expression="points - 2" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Desafios$Main__4_.ic" NAME="Main (4) Coverage Results" MODIFIED="1591311291281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>uri.desafio1799.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Desafios$Main__2_.ic" NAME="Main (2) Coverage Results" MODIFIED="1588115648417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>uri.desafio1260.*</FILTER>
     </SUITE>
