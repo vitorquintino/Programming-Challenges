@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc639e4-3d49-43d9-89b6-c5a89d426e21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/minimaratona/desafio1110/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minimaratona/desafio2026/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minimaratona/desafio2087/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minimaratona/desafio2344/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/minimaratona/desafio2410/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desafios/minimaratona/desafio2026/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desafios/minimaratona/desafio2026/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desafios/minimaratona/desafio2087/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desafios/minimaratona/desafio2087/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minimaratona/desafio2026/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minimaratona/desafio2026/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,20 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ep2.uri2243.Main" />
-      <module name="Desafios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ep2.uri2243.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="minimaratona.desafio2344.Main" />
       <module name="Desafios" />
@@ -129,11 +116,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="minimaratona.desafio1110.Main" />
+      <option name="MAIN_CLASS_NAME" value="minimaratona.desafio2026.Main" />
       <module name="Desafios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="minimaratona.desafio1110.*" />
+          <option name="PATTERN" value="minimaratona.desafio2026.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +129,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (5)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +184,7 @@
       <workItem from="1591058876220" duration="38000" />
       <workItem from="1591198161004" duration="4843000" />
       <workItem from="1591306644472" duration="3081000" />
-      <workItem from="1591740362839" duration="5081000" />
+      <workItem from="1591740362839" duration="6916000" />
     </task>
     <task id="LOCAL-00001" summary="Desafio 1100 completado - dijkstra">
       <created>1587498887680</created>
@@ -325,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591740594029</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Minimaratona finalizada - 2087 com time limit">
+      <created>1591745478303</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1591745478303</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +357,8 @@
     <MESSAGE value="Desafio 1905 finalizado" />
     <MESSAGE value="Desafio 1259 finalizado" />
     <MESSAGE value="Desafio 1799 finalizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio 1799 finalizado" />
+    <MESSAGE value="Minimaratona finalizada - 2087 com time limit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minimaratona finalizada - 2087 com time limit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -502,6 +497,16 @@
           <url>file://$PROJECT_DIR$/src/minimaratona/desafio2087/Main.java</url>
           <line>20</line>
           <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/minimaratona/desafio2026/Main.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/minimaratona/desafio2026/Main.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="131" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

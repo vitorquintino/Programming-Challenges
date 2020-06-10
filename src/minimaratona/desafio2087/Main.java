@@ -19,25 +19,19 @@ public class Main {
 
         while((number = sc.nextInt()) != 0) {
             ArrayList<String> strings = new ArrayList<>();
-            String all = "";
+            boolean result = true;
 
             for(int i = 0; i < number; i++){
                 String nextString = sc.next();
+                if (result) {
+                    for (String s: strings) {
+                        if (s.startsWith(nextString) || nextString.startsWith(s)) {
+                            result = false;
+                        }
+                    }
+                }
 
                 strings.add(nextString);
-
-                all = all.concat("-" + nextString);
-            }
-
-            all = all.concat("-");
-
-            boolean result = true;
-            for(String s: strings){
-                String aux = all;
-
-                int count = all.length() - aux.replace("-" + s, "").length();
-
-                if(count > 2 || count == 0) result = false;
             }
 
             if(result) System.out.println("Conjunto Bom");
