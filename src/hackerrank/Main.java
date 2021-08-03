@@ -3,6 +3,7 @@ package hackerrank;
 import java.util.*;
 
 public class Main {
+
     public static void main(String[] args) {
         int sockMerchant = sockMerchant(1, Collections.singletonList(10));
         int countingValleys = countingValleys(8, "DDUUDDUDUUUD");

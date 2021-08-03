@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8dc639e4-3d49-43d9-89b6-c5a89d426e21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desafios/META-INF/Desafios.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desafios/minimaratona/desafio2026/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desafios/minimaratona/desafio2026/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desafios/minimaratona/desafio2087/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desafios/minimaratona/desafio2087/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minimaratona/desafio2087/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minimaratona/desafio2087/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minimaratona/desafio2410/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minimaratona/desafio2410/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hackerrank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hackerrank/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +186,7 @@
       <workItem from="1626569547193" duration="588000" />
       <workItem from="1627854932682" duration="1530000" />
       <workItem from="1627923182228" duration="1125000" />
-      <workItem from="1627943404781" duration="6880000" />
+      <workItem from="1627943404781" duration="8011000" />
     </task>
     <task id="LOCAL-00001" summary="Desafio 1100 completado - dijkstra">
       <created>1587498887680</created>
@@ -325,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591745478303</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Adicionando códigos iniciais da trilha do hackerrank">
+      <created>1627954952079</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1627954952079</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +367,8 @@
     <MESSAGE value="Desafio 1259 finalizado" />
     <MESSAGE value="Desafio 1799 finalizado" />
     <MESSAGE value="Minimaratona finalizada - 2087 com time limit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minimaratona finalizada - 2087 com time limit" />
+    <MESSAGE value="Adicionando códigos iniciais da trilha do hackerrank" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando códigos iniciais da trilha do hackerrank" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -511,17 +515,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/minimaratona/desafio2087/Main.java</url>
-          <line>39</line>
+          <line>36</line>
           <option name="timeStamp" value="144" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/minimaratona/desafio2410/Main.java</url>
-          <line>20</line>
+          <line>15</line>
           <option name="timeStamp" value="146" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/minimaratona/desafio2410/Main.java</url>
-          <line>95</line>
+          <line>26</line>
           <option name="timeStamp" value="151" />
         </line-breakpoint>
       </breakpoints>
