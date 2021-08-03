@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc639e4-3d49-43d9-89b6-c5a89d426e21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/minimaratona/desafio2410/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desafios/META-INF/Desafios.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Desafios/minimaratona/desafio2026/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desafios/minimaratona/desafio2026/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Desafios/minimaratona/desafio2087/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desafios/minimaratona/desafio2087/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minimaratona/desafio2026/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minimaratona/desafio2026/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minimaratona/desafio2087/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minimaratona/desafio2087/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minimaratona/desafio2410/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/minimaratona/desafio2410/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Git/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,13 +63,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="minimaratona.desafio2344.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="minimaratona.desafio2410.Main" />
       <module name="Desafios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="minimaratona.desafio2344.*" />
+          <option name="PATTERN" value="minimaratona.desafio2410.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uri.desafio1259.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="minimaratona.desafio2344.Main" />
       <module name="Desafios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uri.desafio1259.*" />
+          <option name="PATTERN" value="minimaratona.desafio2344.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,19 +130,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +186,11 @@
       <workItem from="1591198161004" duration="4843000" />
       <workItem from="1591306644472" duration="3081000" />
       <workItem from="1591740362839" duration="6916000" />
+      <workItem from="1626313337640" duration="3985000" />
+      <workItem from="1626569547193" duration="588000" />
+      <workItem from="1627854932682" duration="1530000" />
+      <workItem from="1627923182228" duration="1125000" />
+      <workItem from="1627943404781" duration="6880000" />
     </task>
     <task id="LOCAL-00001" summary="Desafio 1100 completado - dijkstra">
       <created>1587498887680</created>
@@ -494,11 +500,6 @@
           <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/minimaratona/desafio2087/Main.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="128" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/minimaratona/desafio2026/Main.java</url>
           <line>32</line>
           <option name="timeStamp" value="129" />
@@ -508,17 +509,36 @@
           <line>30</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/minimaratona/desafio2087/Main.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/minimaratona/desafio2410/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/minimaratona/desafio2410/Main.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="warriorsFirst.get(i)" language="JAVA" />
-        <watch expression="point.x == points - 2" language="JAVA" />
-        <watch expression="points - 2" language="JAVA" />
+        <watch expression="s.substring(1)" language="JAVA" />
+        <watch expression="Math.floor((int) n/s.length()" language="JAVA" />
+        <watch expression="(int) n" language="JAVA" />
+        <watch expression="Math.floor( n/s.length()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Programming_Challenges$Main__5_.ic" NAME="Main (5) Coverage Results" MODIFIED="1626570082754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>minimaratona.desafio2087.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Desafios$Main__4_.ic" NAME="Main (4) Coverage Results" MODIFIED="1591311291281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>uri.desafio1799.*</FILTER>
     </SUITE>
